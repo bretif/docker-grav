@@ -10,7 +10,7 @@ Then you can access GRAV on http://127.0.0.1:8000
 
 Deploy GRAV with [admin plugin](https://github.com/getgrav/grav-plugin-admin)
 ```
-docker run -d --name grav -d -p 8000:80 sudokeys/grav:withadmin
+docker run -d --name grav -d -p 8000:80 sudokeys/grav:with-admin
 ```
 
 
