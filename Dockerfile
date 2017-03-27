@@ -33,6 +33,5 @@ WORKDIR /var/www/html
 
 RUN composer install --no-dev -o && \
     bin/grav install && \
-    bin/gpm --no-interaction install admin && \
     chown -R www-data:www-data /var/www/html/ 
 
